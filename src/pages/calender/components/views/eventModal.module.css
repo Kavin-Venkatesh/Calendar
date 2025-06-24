@@ -1,0 +1,20 @@
+.evenModalInputContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.evenModalInputContainer h5{
+    font-size: large;
+    margin : 2rem;
+}
+
+.eventModalInput{
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 1rem;
+    width: 50%;
+}
