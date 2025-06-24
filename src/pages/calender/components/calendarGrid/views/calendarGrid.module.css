@@ -1,0 +1,78 @@
+.calendarGridContainer{
+   width : 90vw;
+   height: 100%;
+   display: flex;
+   flex-direction: column;
+   box-shadow: 0 4px 12px rgba(23, 23, 23, 0.1);
+
+}
+
+.calendarGridHeader{
+    width : 100%;
+    height : 7vh;
+    display: flex;
+    align-items: center;
+}
+
+.calendarGridLeftContainer{
+    width : 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.calendarGridRightContainer{
+    width : 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.GridMonthYearTitle{
+    font-size: xx-large;
+    margin : 1.5rem;
+}
+
+
+.nextButton{
+    padding : 15px;
+    border : none;
+    border-radius: 30px;
+    background-color: var(--color-secondary);
+    margin : 2rem;
+    cursor: pointer;
+
+    &:hover{
+        transform: scale(1.05); 
+        padding: 18px;
+    }
+
+
+}
+
+.greaterLesserIcon{
+    background-color: transparent;
+    font-size: larger;
+    font-weight: bold;
+}
+
+.calendarGrid{
+    display: grid;
+    grid-template-columns: repeat(7 , 1fr);
+    gap : 1px;
+    background-color: var(--color-background);
+}
+
+.dayHeader{
+    background-color: transparent;
+    padding: 12px;
+    font-weight: 600;
+    text-align: center;
+    color: #524e4e;
+
+}
+
+
+
+
